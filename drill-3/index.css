@@ -1,0 +1,66 @@
+body {
+    height: 1200px;
+}
+header {
+    background-color: lightgray;
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+
+div {
+    background-color: rgb(92, 131, 210);
+    height: 60px;
+    width: 60px;
+    margin: 20px 20px;
+}
+
+section {
+    height: 200px;
+    width: 100%;
+}
+
+#text {
+    height: 300px;
+    width: 95%;
+    margin: 20px 20px;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+#blue {
+    background-color: rgb(92, 131, 210);
+}
+
+#turquoise {
+    background-color: rgb(136, 215,188);
+}
+
+#olive {
+    background-color: rgb(194, 225, 141);
+}
+
+#yellow {
+    background-color: rgb(241,228,90);
+}
+
+#fixed {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+}
+#mark {
+    color: white;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+}
